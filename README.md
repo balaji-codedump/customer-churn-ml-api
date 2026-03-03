@@ -13,14 +13,6 @@ Built using FastAPI and XGBoost, with Docker for deployment.
 ## Tech Stack
 Python, Pandas, Scikit-learn, XGBoost, FastAPI, Docker
 
-## Project Structure
-app/ # FastAPI app
-pipeline/ # Preprocessing code
-model/ # Trained model
-notebook/ # EDA and training
-Dockerfile
-requirements.txt
-
 ## Run Locally
 pip install -r requirements.txt
 uvicorn app.main:app --reload
