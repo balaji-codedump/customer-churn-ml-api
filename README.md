@@ -1,36 +1,31 @@
 # Customer Churn Prediction ML API
 
 An end-to-end Machine Learning API for predicting customer churn.  
-Built using FastAPI and XGBoost, with Docker for deployment.
+Built using FastAPI and XGBoost, containerized with Docker, and deployed on AWS EC2.
+
+---
 
 ## Features
-- Data preprocessing pipeline
-- XGBoost classification model
-- REST API with FastAPI
-- Real-time predictions
-- Dockerized deployment
+- Data preprocessing pipeline  
+- XGBoost classification model  
+- REST API using FastAPI  
+- Real-time predictions  
+- Dockerized deployment  
+- Cloud deployment on AWS EC2  
+
+---
 
 ## Tech Stack
-Python, Pandas, Scikit-learn, XGBoost, FastAPI, Docker
+Python, Pandas, Scikit-learn, XGBoost, Logistic Regression, RandomForest Classifier, LightGBM, FastAPI, Docker, AWS
 
-## Run Locally
-pip install -r requirements.txt
-uvicorn app.main:app --reload
+---
 
-Open:  
-http://localhost:8000/docs
+## Live API
+http://16.171.169.175:8000/docs
 
-## Run with Docker
-docker build -t churn-api .
-docker run -p 8000:8000 churn-api
+---
 
-Open:  
-http://localhost:8000/docs
-
-## API Example
-
-### Input
-json
+Input
 {
   "gender": "Male",
   "Partner": "Yes",
@@ -52,12 +47,12 @@ json
   "TotalCharges": 850.5
 }
 
-### Output
+Output
 {
   "churn_probability": 0.32,
   "churn_prediction": 0
 }
 
+Author
 
-### Author
 Balaji M
