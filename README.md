@@ -49,7 +49,7 @@ Input
 
 Output
 {
-  "churn_probability": 0.32,
+  "churn_probability": 0.29,
   "churn_prediction": 0
 }
 
