@@ -1,14 +1,15 @@
 # Customer Churn Prediction ML API
 
 An end-to-end Machine Learning API for predicting customer churn.  
-Built using FastAPI and XGBoost, containerized with Docker, and deployed on AWS EC2.
+Built using FastAPI and XGBoost, Streamlit UI, containerized with Docker, and deployed on AWS EC2.
 
 ---
 
 ## Features
 - Data preprocessing pipeline  
 - XGBoost classification model  
-- REST API using FastAPI  
+- REST API using FastAPI
+- Streamlit Frontend
 - Real-time predictions  
 - Dockerized deployment  
 - Cloud deployment on AWS EC2  
@@ -16,7 +17,7 @@ Built using FastAPI and XGBoost, containerized with Docker, and deployed on AWS 
 ---
 
 ## Tech Stack
-Python, Pandas, Scikit-learn, XGBoost, Logistic Regression, RandomForest Classifier, LightGBM, FastAPI, Docker, AWS
+Python, Pandas, Scikit-learn, XGBoost, Logistic Regression, RandomForest Classifier, LightGBM, Streamlit UI,FastAPI, Docker, AWS
 
 ---
 
