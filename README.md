@@ -20,8 +20,8 @@ Python, Pandas, Scikit-learn, XGBoost, Logistic Regression, RandomForest Classif
 
 ---
 
-## Live API
-http://16.171.169.175:8000/docs
+## Live Demo
+http://51.20.193.189:8501/
 
 ---
 
